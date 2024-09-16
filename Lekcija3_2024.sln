@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekcija3_2024", "Lekcija3_2024\Lekcija3_2024.csproj", "{4DD35B66-7FF2-4FDE-AB2C-48D881546916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryClasses", "GeometryClasses\GeometryClasses.csproj", "{6ACBB750-3487-4B94-8E08-08E92F4684A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD35B66-7FF2-4FDE-AB2C-48D881546916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD35B66-7FF2-4FDE-AB2C-48D881546916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD35B66-7FF2-4FDE-AB2C-48D881546916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD35B66-7FF2-4FDE-AB2C-48D881546916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACBB750-3487-4B94-8E08-08E92F4684A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACBB750-3487-4B94-8E08-08E92F4684A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACBB750-3487-4B94-8E08-08E92F4684A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACBB750-3487-4B94-8E08-08E92F4684A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B8C6D26-60CA-47AB-8655-2BA09FAF1B9F}
+	EndGlobalSection
+EndGlobal
