@@ -13,6 +13,14 @@ Console.WriteLine(r.izdruka());
 GeometryClass m = r;
 Console.WriteLine(m.ToString());
 Console.WriteLine(m.izdruka());
+Rectangle r1 = m as Rectangle;
+Console.WriteLine("r1" + r1.ToString());
+
+Square sq_r = m as Square;
+Console.WriteLine(sq_r?.ToString() ?? "nav kvadrāts");
+bool t = m is Square;
+bool t1 = m is Rectangle;
+Console.WriteLine(t.ToString() + " " + t1.ToString());
 
 
 Console.WriteLine(r.Area.ToString());
