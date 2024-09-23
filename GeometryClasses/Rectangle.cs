@@ -21,6 +21,14 @@ namespace GeometryClasses
 			
 			}
 		}
+		public Rectangle()
+		{ }
+
+        public Rectangle (int width, int height)
+		{
+			_height= height;
+			_width = width;
+		}
 
 		private int _width;
 

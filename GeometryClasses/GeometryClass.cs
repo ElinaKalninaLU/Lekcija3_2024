@@ -1,5 +1,9 @@
-﻿namespace GeometryClasses
+﻿using GeometryClasses.GeometryClasses;
+using System.Xml.Serialization;
+
+namespace GeometryClasses
 {
+    [XmlInclude(typeof(Square))]
     public abstract class GeometryClass
     {
         public string Name { get; set; }

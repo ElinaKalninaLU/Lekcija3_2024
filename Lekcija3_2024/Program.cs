@@ -32,4 +32,15 @@ Console.WriteLine(sq1.ToString());
 var sq2 = new Square(3);
 Console.WriteLine(sq2.ToString());
 
+string str = "C:\\Temp\\figures.xml";
+var dm1 = new FigureDataManager();
+IDataManager dm = dm1;
+dm.CreateTestData();
+//Console.WriteLine(dm.Print());
+dm.Save(str);
+//dm.Reset();
+//Console.WriteLine(dm.Print());
+//dm.Load(str);
+//Console.WriteLine(dm.Print());
+
 
