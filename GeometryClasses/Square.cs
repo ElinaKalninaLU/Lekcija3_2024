@@ -4,14 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeometryClasses
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     namespace GeometryClasses
     {
         public class Square : GeometryClass
@@ -25,6 +17,8 @@ namespace GeometryClasses
                 {
                     if (value > 0)
                     { edge = value; }
+                    //else
+                    //{  throw new ArgumentOutOfRangeException(); }
                 }
             }
 
@@ -53,4 +47,3 @@ namespace GeometryClasses
         
         }
     }
-}
