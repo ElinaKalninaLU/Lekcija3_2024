@@ -25,17 +25,20 @@ namespace GeometryClasses
                 {
                     if (value > 0)
                     { edge = value; }
+                    else throw new ArgumentOutOfRangeException();
                 }
             }
 
             public Square(int _edge)
             {
                 Edge = _edge;
+                figureColour = Colour.Black;
             }
 
             public Square()
             {
                 Edge = 5;
+                figureColour = Colour.Red;
             }
 
             public override int Perimeter()

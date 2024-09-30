@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using GeometryClasses;
 using GeometryClasses.GeometryClasses;
+using System.Text.RegularExpressions;
 
 Console.WriteLine("Hello, World!");
 
@@ -27,9 +28,33 @@ Console.WriteLine(r.Area.ToString());
 Console.WriteLine(r.Perimeter().ToString());
 Console.WriteLine("Enter edge of the square");
 var sq1 = new Square();
-sq1.Edge = int.Parse(Console.ReadLine());
+try
+{
+    sq1.Edge = int.Parse(Console.ReadLine());
+}
+catch (ArgumentOutOfRangeException e)
+{ Console.WriteLine("The value must be positive."); }
+catch (Exception e)
+{ Console.WriteLine("Error."); }
 Console.WriteLine(sq1.ToString());
 var sq2 = new Square(3);
 Console.WriteLine(sq2.ToString());
 
+IDataManager dm = new GeometryDataManager();
+
+dm.CreateTestData();
+var gdm = (GeometryDataManager)dm;
+gdm.AddFigure(sq1);
+
+Console.WriteLine("Print: \n" + dm.Print());
+dm.Save();
+dm.Reset();
+Console.WriteLine("Print: \n" + dm.Print());
+dm.Load();
+Console.WriteLine("Print: \n" + dm.Print());
+
+Console.WriteLine("Enter phone number of 8 digits");
+var s = Console.ReadLine();
+//Console.WriteLine(Regex.Match(s, @"^\d{8}$").Success);
+Console.WriteLine(Regex.Match(s, @"^\d{8}$|^\+371\d{8}$").Success);
 
