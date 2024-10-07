@@ -17,8 +17,8 @@ using System.Threading.Tasks;
                 {
                     if (value > 0)
                     { edge = value; }
-                    //else
-                    //{  throw new ArgumentOutOfRangeException(); }
+                    else
+                    {  throw new ArgumentOutOfRangeException(); }
                 }
             }
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TestLekcijai6.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TestLekcijai6"
+    Shell.FlyoutBehavior="Flyout"
+    Title="TestLekcijai6">
+
+    <ShellContent
+    Title="Figures"
+    ContentTemplate="{DataTemplate local:FiguresMainPage}"
+    Route="FiguresMainPage" />
+    <ShellContent
+        Title="Test"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+     Title="Square"
+     ContentTemplate="{DataTemplate local:SquarePage}"
+     Route="SquarePage" />
+    <ShellContent
+     Title="Rectangle"
+     ContentTemplate="{DataTemplate local:RectanglePage}"
+     Route="RectanglePage" />
+</Shell>

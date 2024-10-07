@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestLekcijai6.RectanglePage"
+             Title="RectanglePage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Enter height:"
+            VerticalOptions="Start" 
+            HorizontalOptions="Start" />
+        <Entry x:Name="txtX">0</Entry>
+        <Label 
+     Text="Enter width:"
+     VerticalOptions="Start" 
+     HorizontalOptions="Start" />
+        <Entry x:Name="txtY">0</Entry>
+        <Button x:Name="btnCreateRectangle" Clicked="btnCreateRectangle_Clicked"/>
+        <Label x:Name="lblResult" Text=""/>
+    </VerticalStackLayout>
+</ContentPage>
