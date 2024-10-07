@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekcija3_2024", "Lekcija3_2024\Lekcija3_2024.csproj", "{4DD35B66-7FF2-4FDE-AB2C-48D881546916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lekcija3_2024", "Lekcija3_2024\Lekcija3_2024.csproj", "{4DD35B66-7FF2-4FDE-AB2C-48D881546916}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryClasses", "GeometryClasses\GeometryClasses.csproj", "{6ACBB750-3487-4B94-8E08-08E92F4684A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryClasses", "GeometryClasses\GeometryClasses.csproj", "{6ACBB750-3487-4B94-8E08-08E92F4684A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekcija6", "Lekcija6\Lekcija6.csproj", "{957CE9CD-BF2F-48F0-B39A-878573EF779B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{6ACBB750-3487-4B94-8E08-08E92F4684A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ACBB750-3487-4B94-8E08-08E92F4684A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ACBB750-3487-4B94-8E08-08E92F4684A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

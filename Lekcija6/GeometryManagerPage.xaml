@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lekcija6.GeometryManagerPage"
+             Title="GeometryManagerPage">
+    <VerticalStackLayout>
+        <Button x:Name="btnPrint" Text="Print" Clicked="btnPrint_Clicked"/>
+        <Button x:Name="btnLoad" Text="Laod" Clicked="btnLoad_Clicked"/>
+        <Button x:Name="btnSave" Text="Save" Clicked="btnSave_Clicked"/>
+        <Button x:Name="btnCreate" Text="Create" Clicked="btnCreate_Clicked"/>
+        <Button x:Name="btnReset" Text="Reset" Clicked="btnReset_Clicked"/>
+        <Label 
+            Text=""
+            x:Name="lblText"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
