@@ -31,10 +31,17 @@ public partial class GeometryManagerPage : ContentPage
     private void btnCreate_Clicked(object sender, EventArgs e)
     {
         dm.CreateTestData();
+        lblText.Text = dm.Print();
     }
 
     private void btnReset_Clicked(object sender, EventArgs e)
     {
         dm.Reset();
+    }
+
+    //Lai atjaunotu sarakstu atn?kot uz lapu
+    private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
+    {
+        lblText.Text = dm.Print();
     }
 }

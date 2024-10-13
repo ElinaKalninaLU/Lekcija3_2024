@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lekcija6.FiguresListPage"
+             Title="FiguresListPage" NavigatedTo="ContentPage_NavigatedTo">
+    <VerticalStackLayout>
+         <CollectionView ItemsSource="{Binding FigureList}" 
+                         VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                         <Label Text="{Binding}"  VerticalOptions="Center"  HorizontalOptions="StartAndExpand" />
+
+                        <Button Text="Edit" Clicked="EditClicked" 
+                            BindingContext ="{Binding}"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="End" />
+
+                        <Button Text="Delete" 
+                            Clicked="DeleteClicked" 
+                            BindingContext ="{Binding}"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="End" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

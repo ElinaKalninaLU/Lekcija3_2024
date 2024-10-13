@@ -7,14 +7,27 @@
     Shell.FlyoutBehavior="Flyout"
     Title="Lekcija6">
 
-    <ShellContent
-        Title="Square"
-        ContentTemplate="{DataTemplate local:SquarePage}"
-        Route="SquarePage" />
+  
     <ShellContent
     Title="Figueres"
     ContentTemplate="{DataTemplate local:GeometryManagerPage}"
     Route="GeometryManagerPage" />
+    <ShellContent
+      Title="Square"
+      ContentTemplate="{DataTemplate local:SquarePage}"
+      Route="SquarePage" />
+    <ShellContent
+      Title="Rectangle"
+      ContentTemplate="{DataTemplate local:RectanglePage}"
+      Route="RectanglePage" />
+    <ShellContent
+      Title="Figure List"
+      ContentTemplate="{DataTemplate local:FiguresListPage}"
+      Route="FiguresListPage" />
+    <ShellContent
+      Title="Polygon"
+      ContentTemplate="{DataTemplate local:PolygonPage}"
+      Route="PolygonPage" />
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lekcija6.PolygonPage"
+             Title="PolygonPage">
+    <VerticalStackLayout>
+        <Picker x:Name="ColourPicker">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Red</x:String>
+                    <x:String>Green</x:String>
+                    <x:String>Blue</x:String>
+                    <x:String>Black</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <HorizontalStackLayout>
+            <Label Text="X:"></Label>
+            <Entry x:Name="txtX"></Entry>
+            <Label Text="Y"></Label>
+            <Entry x:Name="txtY"></Entry>
+            <Button x:Name="btnAddPoint" Text="Add Point" Clicked="btnAddPoint_Clicked"></Button>
+        </HorizontalStackLayout>
+        <ListView x:Name="lstPoints"></ListView>
+        <Button x:Name="btnRemovePoint" Text="Remove Point" Clicked="btnRemovePoint_Clicked"></Button>
+        <Button x:Name="AddPolygonBtn" Text="Create polygon" Clicked="AddPolygonBtn_Clicked"/>
+        <Button x:Name="EditPolygonBtn" IsVisible="False" Text="Edit polygon" Clicked="EditPolygonBtn_Clicked"/>
+        <Label x:Name="ResultLbl"/>
+    </VerticalStackLayout>
+</ContentPage>
