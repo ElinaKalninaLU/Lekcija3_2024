@@ -37,4 +37,9 @@ public partial class GeometryManagerPage : ContentPage
     {
         dm.Reset();
     }
+
+    private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
+    {
+        lblText.Text = dm.Print();
+    }
 }

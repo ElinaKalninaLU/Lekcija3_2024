@@ -12,9 +12,13 @@
         ContentTemplate="{DataTemplate local:SquarePage}"
         Route="SquarePage" />
     <ShellContent
-    Title="Figueres"
+    Title="Figures"
     ContentTemplate="{DataTemplate local:GeometryManagerPage}"
     Route="GeometryManagerPage" />
+    <ShellContent
+   Title="Figure List"
+   ContentTemplate="{DataTemplate local:FigureListPage}"
+   Route="FigureListPage" />
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"

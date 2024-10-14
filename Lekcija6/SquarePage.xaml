@@ -7,7 +7,19 @@
         <Label 
             Text="Enter edge" />
         <Entry x:Name="Edgetxt"/>
+        <Picker x:Name="ColourPicker">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Red</x:String>
+                    <x:String>Green</x:String>
+                    <x:String>Blue</x:String>
+                    <x:String>Black</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
         <Button x:Name="AddSquareBtn" Text="Create square" Clicked="AddSquareBtn_Clicked"/>
+        <Button x:Name="EditSquareBtn" IsVisible="False"  Text="Edit square" Clicked="EditSquareBtn_Clicked"/>
+
         <Label x:Name="ResultLbl"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lekcija6.GeometryManagerPage"
-             Title="GeometryManagerPage">
+             Title="GeometryManagerPage" NavigatedTo="ContentPage_NavigatedTo">
     <VerticalStackLayout>
         <Button x:Name="btnPrint" Text="Print" Clicked="btnPrint_Clicked"/>
         <Button x:Name="btnLoad" Text="Laod" Clicked="btnLoad_Clicked"/>
