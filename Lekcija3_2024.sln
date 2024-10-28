@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lekcija3_2024", "Lekcija3_2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryClasses", "GeometryClasses\GeometryClasses.csproj", "{6ACBB750-3487-4B94-8E08-08E92F4684A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekcija6", "Lekcija6\Lekcija6.csproj", "{957CE9CD-BF2F-48F0-B39A-878573EF779B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lekcija6", "Lekcija6\Lekcija6.csproj", "{957CE9CD-BF2F-48F0-B39A-878573EF779B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekcija9", "Lekcija9\Lekcija9.csproj", "{27E66663-02F3-4969-AB07-86EE463BA92D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{957CE9CD-BF2F-48F0-B39A-878573EF779B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{27E66663-02F3-4969-AB07-86EE463BA92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E66663-02F3-4969-AB07-86EE463BA92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E66663-02F3-4969-AB07-86EE463BA92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E66663-02F3-4969-AB07-86EE463BA92D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

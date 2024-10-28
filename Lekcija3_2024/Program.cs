@@ -45,12 +45,10 @@ IDataManager dm = new GeometryDataManager();
 dm.CreateTestData();
 var gdm = (GeometryDataManager)dm;
 gdm.AddFigure(sq1);
-
-Console.WriteLine("Print: \n" + dm.Print());
 dm.Save();
-dm.Reset();
 Console.WriteLine("Print: \n" + dm.Print());
-dm.Load();
+
+dm.Reset();
 Console.WriteLine("Print: \n" + dm.Print());
 
 Console.WriteLine("Enter phone number of 8 digits");

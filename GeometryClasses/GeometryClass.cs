@@ -8,7 +8,8 @@ namespace GeometryClasses
     [XmlInclude(typeof(Polygon))]
     public abstract class GeometryClass
     {
-        public string Name { get; set; }
+        public int ID { get; set; }
+        public string? Name { get; set; }
 
         public override string? ToString()
         {
@@ -28,6 +29,6 @@ namespace GeometryClasses
 
         public virtual int Area { get; }
 
-         public Colour figureColour { get; set; } = Colour.Black;
+         public Colour? figureColour { get; set; } = Colour.Black;
     }
 }
