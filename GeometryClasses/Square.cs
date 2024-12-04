@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace GeometryClasses
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
@@ -41,10 +43,7 @@ namespace GeometryClasses
                 figureColour = Colour.Red;
             }
 
-            public override int Perimeter()
-            {
-                return 4 * Edge;
-            }
+            public override int Perimeter() => 4 * Edge;
 
             public override int Area => Edge * Edge;
 
